@@ -1,0 +1,281 @@
+#logo1{
+    height:3cm ;
+    width:4cm ;
+  }
+  #soups{
+    color: brown;
+    background-color: black;
+  }
+  .food-soup{
+    background-color: black;
+  }
+  
+  .soup-price{
+    display: flex;
+    gap: 10cm;
+    background-color: black;
+    color: aliceblue;
+    width: 22cm;
+    /* height:19cm ; */
+    
+
+  }
+  .menu-page1{
+    background-image: url(images/kitisurumenu.jpg);
+    height: 23cm;
+    width:21cm ;
+    color: white;
+    text-align: center;
+  }
+  .food{
+    display: flex;
+     
+  }
+  #salads{
+    color: brown;
+  
+  }
+  .ankole-salads{
+    display: flex;
+    color: white;
+    gap: 2.5cm;
+  }
+  .second-ankole-salads{
+    display: flex;
+    color: white;
+    gap: 2.5cm;
+  }
+  #sandwiches{
+    color: brown;
+  }
+  .ankole-sandwiches{
+    display: flex;
+    color: white;
+    gap: 2.5cm;
+  }
+  .second-ankole-sandwiches{
+    display: flex;
+    color: white;
+    gap: 2.5cm;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    margin-top: 6cm;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+@media screen  and (max-width: 480px){
+    #logo1{
+        height:3cm ;
+        width:2cm ;
+      }
+      #soups{
+        color: brown;
+        background-color: black;
+      }
+      .food-soup{
+        background-color: black;
+      }
+      
+      .soup-price{
+        display: flex;
+        gap: 5cm;
+        background-color: black;
+        color: aliceblue;
+        width: 10cm;
+        /* height:19cm ; */
+        
+    
+      }
+      .menu-page1{
+        background-image: url(images/kitisurumenu.jpg);
+        height: 23cm;
+        width:10.8cm ;
+        color: white;
+        text-align: center;
+      }
+      .food{
+        display: block;
+         
+      }
+      #salads{
+        color: brown;
+      
+      }
+      .ankole-salads{
+        display: flex;
+        color: white;
+        gap: 1cm;
+      }
+      .second-ankole-salads{
+        display: flex;
+        color: white;
+        gap: 1cm;
+      }
+      #sandwiches{
+        color: brown;
+      }
+      .ankole-sandwiches{
+        display: flex;
+        color: white;
+        gap: 1cm;
+      }
+      .second-ankole-sandwiches{
+        display: flex;
+        color: white;
+        gap: 1cm;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.5cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 40%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 10%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 50%;
+        position: absolute;
+        margin-top: 6cm;
+        
+    }
+    .reservations{
+      width: 2cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    } 
+}
+@media screen  and (max-width: 912px){
+    #logo1{
+        height:3cm ;
+        width:4cm ;
+      }
+      #soups{
+        color: brown;
+        background-color: black;
+      }
+      .food-soup{
+        background-color: black;
+        
+      }
+      
+      .soup-price{
+        display: flex;
+        gap: 6cm;
+        background-color: black;
+        color: aliceblue;
+        width: 22cm;
+        /* height:19cm ; */
+        
+    
+      }
+      .menu-page1{
+        background-image: url(images/kitisurumenu.jpg);
+        height: 26cm;
+        width:23.5cm ;
+        color: white;
+        text-align: center;
+      }
+      .food{
+        display: block;
+         
+      }
+      #salads{
+        color: brown;
+      
+      }
+      .ankole-salads{
+        display: flex;
+        color: white;
+        gap: 2.5cm;
+      }
+      .second-ankole-salads{
+        display: flex;
+        color: white;
+        gap: 2.5cm;
+      }
+      #sandwiches{
+        color: brown;
+      }
+      .ankole-sandwiches{
+        display: flex;
+        color: white;
+        gap: 2.5cm;
+      }
+      .second-ankole-sandwiches{
+        display: flex;
+        color: white;
+        gap: 2.5cm;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.5cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 80%;
+        position: absolute;
+        margin-top: 16cm;
+        
+    }
+    .reservations{
+      width: 4cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+}

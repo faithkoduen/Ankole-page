@@ -1,0 +1,219 @@
+.section-top{
+    width: 1499px;
+    height:800px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/kilimani.jpg);
+    background-position: center;
+    text-align: center;
+    color: white;
+    animation: change 10s infinite ease;
+    
+    
+  }
+  @keyframes change{
+      0%
+      {
+          background-image: url(images/kilimani2.jpg);
+          
+      }
+      20%
+      {
+          background-image: url(images/kilimani3.jpg);
+      }
+      40%
+      {
+          background-image:url(images/kilimani4.jpg);
+      }
+      60%
+      {
+        background-image: url(images/kilimani5.jpg);
+      }
+  }
+  .navbar ul{
+      display: flex;
+      list-style-type: none;
+      gap: 0.5cm;
+      background-color: black; padding-right: 15px; padding-left: 15px; 
+      width: 90%;
+      text-align: center;
+      padding: 5%;
+      margin-left: 10cm;
+      border-radius: 25px;
+  }
+  .navbar ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      width: 50%;
+      text-align: center;
+      
+  }
+  .navbar{
+      margin-top: 18cm;
+      border-radius: 15px 15px;
+      width: 50%;
+      position: absolute;
+      
+  }
+  .reservations{
+    width: 4cm;
+    height: 1cm;
+    border-radius: 10px;
+    background-color: rgb(166, 156, 177);
+  }
+  
+  #logo2{
+    height:3cm ;
+    width:6cm ;
+    margin-left: 6.5cm;
+    margin-top: 3cm;
+    
+  }
+  
+  
+  @media screen  and (max-width: 480px){
+    .section-top{
+      width: 400px;
+      height:800px;
+      overflow: hidden;
+      position: relative;
+      background-image: url(images/kilimani.jpg);
+      background-position: center;
+      text-align: center;
+      color: white;
+      animation: change 10s infinite ease;
+      
+      
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url(images/kilimani2.jpg);
+            
+        }
+        20%
+        {
+            background-image: url(images/kilimani3.jpg);
+        }
+        40%
+        {
+            background-image:url(images/kilimani4.jpg);
+        }
+        60%
+        {
+          background-image: url(images/kilimani5.jpg);
+        }
+    }
+    .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.2cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        padding: 5%;
+        margin-left: 1cm;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 50%;
+    
+        
+    }
+    .navbar{
+        margin-top: 18cm;
+        border-radius: 15px 15px;
+        width: 90%;
+        position: absolute;
+        
+    }
+    .reservations{
+      width: 2cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+  }
+  @media screen  and (max-width: 912px){
+    .section-top{
+      width: 900px;
+      height:800px;
+      overflow: hidden;
+      position: relative;
+      background-image: url(images/kilimani.jpg);
+      background-position: center;
+      text-align: center;
+      color: white;
+      animation: change 10s infinite ease;
+      
+      
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url(images/kilimani2.jpg);
+            
+        }
+        20%
+        {
+            background-image: url(images/kilimani3.jpg);
+        }
+        40%
+        {
+            background-image:url(images/kilimani4.jpg);
+        }
+        60%
+        {
+          background-image: url(images/kilimani5.jpg);
+        }
+    }
+    .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.5cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 150%;
+        text-align: center;
+        padding: 5%;
+        margin-left: 2cm;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 18cm;
+        border-radius: 15px 15px;
+        width: 50%;
+        position: absolute;
+        
+    }
+    .reservations{
+      width: 4cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+
+    #logo2{
+      height:3cm ;
+      width:6cm ;
+      margin-left: 6.5cm;
+      margin-top: 3cm;
+      
+    }
+    
+  }
+
+
+  
+
+

@@ -1,0 +1,23 @@
+.contacts{
+    display: flex;
+    gap:2cm;
+    background-image: url(images/contacts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23cm;
+    color: white;
+    font-size: larger;
+
+    
+  }
+  .kitisuru{
+    border: 1px solid white;
+    height: 10cm;
+    margin-left: 14cm;
+    margin-top: 7cm;
+  }
+  .kilimani{
+    border: 1px solid white;
+    height: 12cm;
+    margin-top: 7cm;
+  }

@@ -1,0 +1,184 @@
+.reviews{
+    background-color: rgb(43, 41, 41);
+    color: white;
+    width: 43.5cm;
+    height: 25cm;
+    text-align: center;
+  
+  }
+  .right-arrow{
+    margin-left: 23cm;
+    color: brown;
+  }
+  .left-arrow{
+    color: brown;
+    margin-right: 19cm;
+  }
+  #nextright{
+    color: white;
+    margin-left: 20cm;
+    margin-bottom: 80cm;
+  }
+  #nextleft{
+    color: white;
+    margin-bottom: 4cm;
+    margin-right: 20cm;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    margin-top: -6cm;
+    margin-left: 8cm;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+@media screen  and (max-width: 480px){
+    .reviews{
+        background-color: rgb(43, 41, 41);
+        color: white;
+        width: 11cm;
+        height: 25cm;
+        text-align: center;
+      
+      }
+      .right-arrow{
+        margin-left: 5cm;
+        color: brown;
+      }
+      .left-arrow{
+        color: brown;
+        margin-right: 5cm;
+      }
+      #nextright{
+        color: white;
+        margin-left: 20cm;
+        margin-bottom: 80cm;
+      }
+      #nextleft{
+        color: white;
+        margin-bottom: 4cm;
+        margin-right: 5cm;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.4cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 95%;
+        position: absolute;
+        margin-top: -6cm;
+        margin-left: 0.3cm;
+        
+    }
+    .reservations{
+      width: 2cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+ } 
+ @media screen  and (max-width: 912px){
+    .reviews{
+        background-color: rgb(43, 41, 41);
+        color: white;
+        width: 25cm;
+        height: 25cm;
+        text-align: center;
+      
+      }
+      .right-arrow{
+        margin-left: 15cm;
+        color: brown;
+        margin-bottom: -4cm;
+      }
+      .left-arrow{
+        color: brown;
+        margin-right:20cm;
+      }
+      #nextright{
+        color: white;
+        margin-left: 20cm;
+        margin-bottom: 80cm;
+      }
+      #nextleft{
+        color: white;
+        margin-bottom: 4cm;
+        margin-right: 20cm;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.5cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 80%;
+        position: absolute;
+        margin-top: -6cm;
+        margin-left: 2cm;
+        
+    }
+    .reservations{
+      width: 4cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+ }
+
+  

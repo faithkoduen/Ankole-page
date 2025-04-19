@@ -1,0 +1,161 @@
+.first-live{
+    display: flex;
+  }
+  .second-live{
+    display: flex;
+  }
+  .third-live{
+    display: flex;
+  }
+  .ankole-live{
+    display: flex;
+    gap: 8cm;
+    background-image:url(images/live.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  #logo2{
+    height:3cm ;
+    width:6cm ;
+    margin-left: 6.5cm;
+    margin-top: 3cm;
+    
+  }
+  .live-page1{
+    color:white;
+  }
+  #main-live{
+    margin-bottom: 4cm;
+  }
+  #tukatike{
+     margin-left: 8cm;
+     color: white;
+     margin-top: 2cm;
+     font-size: xx-large;
+  }
+  #live{
+    margin-left: 8cm;
+    color: brown;
+    font-size: xx-large;
+    margin-top: 1cm;
+  }
+  #date{
+    color: brown;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    margin-left: 1cm;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: -7cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+@media screen  and (max-width: 480px){
+    .first-live{
+        display: block;
+      }
+      .second-live{
+        display: block;
+      }
+      .third-live{
+        display: block;
+      }
+      .ankole-live{
+        display: block;
+        gap: 4cm;
+        background-image:url(images/live.jpeg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      }
+      #logo2{
+        height:3cm ;
+        width:2cm ;
+        margin-left: 3cm;
+        margin-top: 3cm;
+        
+      }
+      .live-page1{
+        color:white;
+      }
+      #main-live{
+        margin-bottom: 4cm;
+      }
+      #tukatike{
+         margin-left: 3cm;
+         color: white;
+         margin-top: 2cm;
+         font-size: xx-large;
+      }
+      #live{
+        margin-left: 3cm;
+        color: brown;
+        font-size: xx-large;
+        margin-top: 1cm;
+      }
+      #date{
+        color: brown;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.4cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 80%;
+        text-align: center;
+        padding: 5%;
+        margin-left: 0.2cm;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 30%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: -40cm;
+        border-radius: 15px 15px;
+        width: 100%;
+        position: absolute;
+        
+    }
+    .reservations{
+      width: 2cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }  
+}
+
+
+  
+
+

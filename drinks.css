@@ -1,0 +1,235 @@
+.drinks-menu{
+    display: flex;
+  }
+  .menu-page2{
+  background-image: url(images/kitisurumenu.jpg);
+  height: 25cm;
+  width:21cm ;
+  color: white;
+  text-align: center;
+  }
+  #drinks{
+    color: white;
+  }
+  #freshjuice{
+    color: brown;
+  }
+  .fruit-drinks{
+    /* display: flex; */
+    background-color: black;
+    color: white;
+    height: 25cm;
+    width:21cm ;
+    gap: 2.5cm;
+  }
+  .fruits{
+    display: flex;
+    gap: 11cm;
+  }
+  .second-fruit-drinks{
+    color: white;
+    
+  }
+  .fruits2{
+    display:flex ;
+    gap: 7cm;
+  }
+  .fruit3{
+    display: flex;
+    gap: 9cm;
+  }
+
+#logo1{
+  height:3cm ;
+  width:4cm ;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    margin-top: 7cm;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+
+@media screen  and (max-width: 480px){
+    .drinks-menu{
+        display: block;
+      }
+      .menu-page2{
+      background-image: url(images/kitisurumenu.jpg);
+      height: 25cm;
+      width:11cm ;
+      color: white;
+      text-align: center;
+      }
+      #drinks{
+        color: white;
+      }
+      #freshjuice{
+        color: brown;
+      }
+      .fruit-drinks{
+        /* display: flex; */
+        background-color: black;
+        color: white;
+        height: 25cm;
+        width:11cm ;
+        gap: 1cm;
+      }
+      .fruits{
+        display: flex;
+        gap: 1cm;
+      }
+      .second-fruit-drinks{
+        color: white;
+        
+      }
+      .fruits2{
+        display:flex ;
+        gap: 1cm;
+      }
+      .fruit3{
+        display: flex;
+        gap: 2cm;
+      }
+    
+    #menuimg{
+      height:3cm ;
+      width:3cm ;
+    }
+    .navbar ul{
+        display: flex;
+        list-style-type: none;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 20%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 10%;
+        position: absolute;
+        margin-top: 7cm;
+        
+    }
+    .reservations{
+      width: 2cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }   
+}
+@media screen  and (max-width: 912px){
+    .drinks-menu{
+        display: block;
+      }
+      .menu-page2{
+      background-image: url(images/kitisurumenu.jpg);
+      height: 25cm;
+      width:21cm ;
+      color: white;
+      text-align: center;
+      }
+      #drinks{
+        color: white;
+      }
+      #freshjuice{
+        color: brown;
+      }
+      .fruit-drinks{
+        /* display: flex; */
+        background-color: black;
+        color: white;
+        height: 45cm;
+        width:21cm ;
+        gap: 2.5cm;
+      }
+      .fruits{
+        display: flex;
+        gap: 11cm;
+      }
+      .second-fruit-drinks{
+        color: white;
+        
+      }
+      .fruits2{
+        display:flex ;
+        gap: 7cm;
+      }
+      .fruit3{
+        display: flex;
+        gap: 9cm;
+      }
+    
+    #logo1{
+      height:3cm ;
+      width:4cm ;
+    }
+    .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.5cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 50%;
+        position: absolute;
+        margin-top: 7cm;
+        
+    }
+    .reservations{
+      width: 4cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+}

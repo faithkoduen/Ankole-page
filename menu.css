@@ -1,0 +1,179 @@
+
+  
+  
+  .menu{
+    display: flex;
+
+
+  }
+  .kitusuri-menu{
+    background-image: url(images/kitisuri.jpg);
+     width: 50cm;
+     height: 27cm;
+  }
+  .kilimani-menu{
+    background-image:url(images/kilimani.jpg) ;
+     width: 50cm;
+     height: 27cm;
+  }
+  #menutext{
+    margin-top: 8cm;
+    margin-left: 9cm;
+    color: brown;
+  }
+  #menutext2{
+    margin-left: 9cm;
+    color: white;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    margin-top: 7cm;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+  @media screen  and (max-width: 480px){
+     
+  
+  .menu{
+    display: block;
+
+
+  }
+  .kitusuri-menu{
+    background-image: url(images/kitisuri.jpg);
+     width: 10.7cm;
+     height: 27cm;
+  }
+  .kilimani-menu{
+    background-image:url(images/kilimani.jpg) ;
+     width: 10.7cm;
+     height: 27cm;
+  }
+  #menutext{
+    margin-top: 8cm;
+    margin-left: 4cm;
+    color: brown;
+  }
+  #menutext2{
+    margin-left: 4cm;
+    color: white;
+  } 
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.3cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 30%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 20%;
+    position: absolute;
+    margin-top: -3cm;
+    
+}
+.reservations{
+  width: 2.5cm;
+  height: 1cm;
+  border-radius: 5px;
+  background-color: rgb(166, 156, 177);
+}
+  }
+  @media screen  and (max-width: 912px){
+   
+  
+  .menu{
+    display: block;
+
+
+  }
+  .kitusuri-menu{
+    background-image: url(images/kitisuri.jpg);
+     width: 50cm;
+     height: 27cm;
+  }
+  .kilimani-menu{
+    background-image:url(images/kilimani.jpg) ;
+     width: 50cm;
+     height: 27cm;
+  }
+  #menutext{
+    margin-top: 8cm;
+    margin-left: 9cm;
+    color: brown;
+  }
+  #menutext2{
+    margin-left: 9cm;
+    color: white;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    margin-top: 7cm;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+} 
+  }

@@ -1,0 +1,260 @@
+.events{
+    display: flex;
+    width: 1900px;
+    height:500px ;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    
+    
+    
+  }
+  .accra{
+    background-image:url(images/accra1.jpg) ;
+     background-repeat:no-repeat ;
+     background-size: cover;
+     width: 557px;
+     height:850px ;
+     position: relative;
+     
+     
+     
+  }
+  .nairobi{
+    background-image:url(images/nairobi2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width:557px ;
+    height: 850px;
+    position: relative;
+    
+  }
+  .zanzibar{
+    background: url(images/zanzibar2.jpeg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 557px;
+    height:850px ;
+    position: relative;
+    
+  }
+  .pavilion{
+    margin-top: 10cm;
+    font-size: large;
+  }
+  .pavilion2{
+    margin-bottom: 2cm;
+    font-size: large;
+  }
+  #text{
+    color:wheat ;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-top: 16cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    margin-top: 5cm;
+    margin-left: 8cm;
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+@media screen  and (max-width: 480px){
+    .events{
+        display: block;
+        width: 1200px;
+        height:500px ;
+        text-align: center;
+        color: white;
+        font-size: medium;
+        
+        
+        
+      }
+      .accra{
+        background-image:url(images/accra1.jpg) ;
+         background-repeat:no-repeat ;
+         background-size: cover;
+         width: 410px;
+         height:850px ;
+         position: relative;
+         
+         
+         
+      }
+      .nairobi{
+        background-image:url(images/nairobi2.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width:410px ;
+        height: 850px;
+        position: relative;
+        
+      }
+      .zanzibar{
+        background: url(images/zanzibar2.jpeg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width: 410px;
+        height:850px ;
+        position: relative;
+        
+      }
+      .pavilion{
+        margin-top: 10cm;
+        font-size: large;
+      }
+      .pavilion2{
+        margin-bottom: 2cm;
+        font-size: large;
+      }
+      #eventimg{
+        width: 2cm;
+        height: 2cm;
+      }
+      #text{
+        color:wheat ;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 30%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 20%;
+        position: absolute;
+        margin-top: 5cm;
+        margin-left: 1cm;
+        
+    }
+    .reservations{
+      width: 1cm;
+      height: 1cm;
+      border-radius: 5px;
+      background-color: rgb(166, 156, 177);
+      font-size: smaller;
+    }  
+}
+@media screen  and (max-width: 912px){
+    .events{
+        display: block;
+        width: 950px;
+        height:500px ;
+        text-align: center;
+        color: white;
+        font-size: medium;
+        
+        
+        
+      }
+      .accra{
+        background-image:url(images/accra1.jpg) ;
+         background-repeat:no-repeat ;
+         background-size: cover;
+         width: 557px;
+         height:850px ;
+         position: relative;
+         
+         
+         
+      }
+      .nairobi{
+        background-image:url(images/nairobi2.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width:557px ;
+        height: 850px;
+        position: relative;
+        
+      }
+      .zanzibar{
+        background: url(images/zanzibar2.jpeg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        width: 557px;
+        height:850px ;
+        position: relative;
+        
+      }
+      .pavilion{
+        margin-top: 10cm;
+        font-size: large;
+      }
+      .pavilion2{
+        margin-bottom: 2cm;
+        font-size: large;
+      }
+      #text{
+        color:wheat ;
+      }
+      .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.2cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 90%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-top: 16cm;
+        border-radius: 15px 15px;
+        width: 60%;
+        position: absolute;
+        margin-top: 5cm;
+        margin-left: 0.1cm;
+        
+    }
+    .reservations{
+      width: 3cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+}

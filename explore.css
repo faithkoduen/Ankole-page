@@ -1,0 +1,260 @@
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.5cm;
+    background-color: black; padding-right: 15px; padding-left: 15px; 
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    margin-left: 2cm;
+    border-radius: 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    
+}
+.navbar{
+    margin-bottom: 15cm;
+    border-radius: 15px 15px;
+    width: 50%;
+    position: absolute;
+    
+    
+}
+.reservations{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 10px;
+  background-color: rgb(166, 156, 177);
+}
+.explore-menu{
+    display: flex;
+    
+  }
+  .menu-page{
+    background-image: url(images/kitisurumenu.jpg);
+    height: 23cm;
+    width:50cm ;
+    color: white;
+    text-align: center;
+    
+    
+    
+  }
+  #menu_img{
+    width: 6cm;
+    margin-left: 4cm;
+  }
+  .ankole-menu{
+    background-color: black;
+    color: white;
+    height: 23cm;
+    width: 50cm;
+  }
+  .nav ul{
+     display: flex;
+     gap: 1cm;
+     list-style-type: none;
+  }
+  .nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3cm;
+  }
+  #coffee{
+    color: brown;
+  }
+  .breakfast{
+    margin-left: 4cm;
+  }
+  .breakfast-price{
+    display: flex;
+    gap: 6cm;
+  }
+  .big-breakfast{
+    display: flex;
+    color: white;
+  }
+  #logo1{
+    height:3cm ;
+    width:4cm ;
+  }
+  @media screen  and (max-width: 480px){
+    .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.2cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 40%;
+        text-align: center;
+        padding: 10%;
+        margin-left: 0cm;
+        border-radius: 5px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        width: 30%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-bottom: 15cm;
+        border-radius: 15px 15px;
+        width: 30%;
+        position: absolute;
+        
+        
+    }
+    .reservations{
+      width: 2cm;
+      height: 1cm;
+      border-radius: 25px;
+      background-color: rgb(166, 156, 177);
+    }
+    .explore-menu{
+        display: block;
+        
+      }
+      .menu-page{
+        background-image: url(images/kitisurumenu.jpg);
+        height: 23cm;
+        width:10.5cm ;
+        color: white;
+        text-align: center;
+        
+        
+        
+      }
+      #menu_img{
+        width: 63cm;
+        margin-left: 2cm;
+      }
+      .ankole-menu{
+        background-color: black;
+        color: white;
+        height: 23cm;
+        width: 10.5cm;
+      }
+      .nav ul{
+         display: flex;
+         gap: 1cm;
+         list-style-type: none;
+      }
+      .nav ul li a{
+        text-decoration: none;
+        color: white;
+        margin-left: 0cm;
+      }
+      #coffee{
+        color: brown;
+      }
+      .breakfast{
+        margin-left: 1cm;
+      }
+      .breakfast-price{
+        display: flex;
+        gap: 2cm;
+      }
+      .big-breakfast{
+        display: flex;
+        color: white;
+      }
+      #menuimg{
+        height:1cm ;
+        width:1cm ;
+      } 
+  }
+  @media screen  and (max-width: 912px){
+    .navbar ul{
+        display: flex;
+        list-style-type: none;
+        gap: 0.3cm;
+        background-color: black; padding-right: 15px; padding-left: 15px; 
+        width: 130%;
+        text-align: center;
+        padding: 5%;
+        margin-left: 2cm;
+        border-radius: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .navbar{
+        margin-bottom: 15cm;
+        border-radius: 15px 15px;
+        width: 50%;
+        position: absolute;
+        
+        
+    }
+    .reservations{
+      width: 4cm;
+      height: 1cm;
+      border-radius: 10px;
+      background-color: rgb(166, 156, 177);
+    }
+    .explore-menu{
+        display: block;
+        
+      }
+      .menu-page{
+        background-image: url(images/kitisurumenu.jpg);
+        height: 23cm;
+        width:24cm ;
+        color: white;
+        text-align: center;
+        
+        
+        
+      }
+      #menu_img{
+        width: 6cm;
+        margin-left: 4cm;
+      }
+      .ankole-menu{
+        background-color: black;
+        color: white;
+        height: 35cm;
+        width: 24cm;
+      }
+      .nav ul{
+         display: flex;
+         gap: 1cm;
+         list-style-type: none;
+      }
+      .nav ul li a{
+        text-decoration: none;
+        color: white;
+        margin-left: 3cm;
+      }
+      #coffee{
+        color: brown;
+      }
+      .breakfast{
+        margin-left: 4cm;
+        
+      }
+      .breakfast-price{
+        display: flex;
+        gap: 6cm;
+      }
+      .big-breakfast{
+        display: flex;
+        color: white;
+      }
+      #logo1{
+        height:3cm ;
+        width:4cm ;
+      }
+  }
