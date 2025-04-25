@@ -72,10 +72,10 @@
   }
   
   
-  @media screen  and (max-width: 480px){
+  @media screen  and (max-width: 500px){
     .section-top{
-      width: 400px;
-      height:800px;
+      width: 20%;
+      height:auto;
       overflow: hidden;
       position: relative;
       background-image: url(images/kilimani.jpg);
