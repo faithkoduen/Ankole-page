@@ -1,6 +1,6 @@
 .section-top{
-    width: 1499px;
-    height:800px;
+    width: 1659px;
+    height:870px;
     overflow: hidden;
     position: relative;
     background-image: url(images/kilimani.jpg);
@@ -74,7 +74,7 @@
   
   @media screen  and (max-width: 500px){
     .section-top{
-      width: 20%;
+      width: 50%;
       height:auto;
       overflow: hidden;
       position: relative;
